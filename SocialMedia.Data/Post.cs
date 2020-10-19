@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SocialMedia.Data
 {
-    class Post
+    public class Post
     {
     }
 }
