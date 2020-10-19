@@ -117,3 +117,9 @@ C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.WebAPI\obj\Debug\SocialMedia.WebAPI.csproj.CopyComplete
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.WebAPI\obj\Debug\SocialMedia.WebAPI.dll
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.WebAPI\obj\Debug\SocialMedia.WebAPI.pdb
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.WebAPI\bin\SocialMedia.Models.dll
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.WebAPI\bin\SocialMedia.Services.dll
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.WebAPI\bin\SocialMedia.Models.pdb
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.WebAPI\bin\SocialMedia.Models.dll.config
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.WebAPI\bin\SocialMedia.Services.pdb
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.WebAPI\bin\SocialMedia.Services.dll.config
