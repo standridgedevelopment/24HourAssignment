@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SocialMedia.Models
 {
-    public class Class1
+    class CommentListItem
     {
+        //change
     }
 }
