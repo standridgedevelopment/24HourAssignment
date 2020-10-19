@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SocialMedia.Data
 {
-    class Like
+    public class Like
     {
         public Post LikedPost { get; set; }
         public User Liker { get; set; }
