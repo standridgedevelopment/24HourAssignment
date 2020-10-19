@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SocialMedia.Data
+namespace SocialMedia.Models
 {
-    public class Post
+    class PostEdit
     {
-        int Id;
-        string Title;
-        string Text;
-        User Author;
     }
 }
