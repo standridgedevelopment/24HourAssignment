@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SocialMedia.Models
 {
-    public class LikeListItem
+    class LikeListItem
     {
     }
 }

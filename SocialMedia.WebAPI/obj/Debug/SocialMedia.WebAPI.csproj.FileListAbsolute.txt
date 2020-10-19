@@ -1,0 +1,2 @@
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.WebAPI\obj\Debug\SocialMedia.WebAPI.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.WebAPI\obj\Debug\SocialMedia.WebAPI.csproj.CoreCompileInputs.cache
