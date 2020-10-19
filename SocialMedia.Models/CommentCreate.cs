@@ -8,5 +8,7 @@ namespace SocialMedia.Models
 {
     class CommentCreate
     {
+        // Here's a comment!
+
     }
 }
