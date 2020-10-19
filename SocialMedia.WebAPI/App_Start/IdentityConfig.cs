@@ -3,6 +3,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
+using SocialMedia.Data;
 using SocialMedia.WebAPI.Models;
 
 namespace SocialMedia.WebAPI

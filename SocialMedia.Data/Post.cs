@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -11,13 +12,13 @@ namespace SocialMedia.Data
     {
         [ForeignKey(nameof(ID))]
         public Guid ID;
-        //public virtual User User { get; set; }
-        
-        
-        public int Id;
-        public string Title;
-        public string Text;
-        public User Author;
-
+        [Key]
+        public int PostId { get; set; }
+        [Required]
+        public string Title { get; set; }
+        [Required]
+        public string Text { get; set; }
+        [Required]
+        public virtual User Author { get; set; }
     }
 }
