@@ -8,9 +8,6 @@ namespace SocialMedia.Models
 {
     class LikeCreate
     {
-<<<<<<< Updated upstream
-=======
-        
->>>>>>> Stashed changes
+
     }
 }
