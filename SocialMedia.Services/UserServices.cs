@@ -36,60 +36,59 @@ namespace SocialMedia.Services
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var query = ctx.Notes.Where(e => e.OwnerID == _userId).Select
-                    (e => new NoteListItem
+                var query = ctx.Users.Where(e => e.UserID == _userId).Select
+                    (e => new UserListItem
                     {
-                        NoteId = e.NoteID,
-                        CategoryID = e.CategoryID,
-                        Title = e.Title,
-                        CreatedUtc = e.CreatedUtc
+                        UserID = _userId,
+                        Name = e.Name
+                        
                     }
-                    );
+                    ); 
                 return query.ToArray();
             }
 
         }
-        public NoteDetail GetNoteById(int id)
-        {
-            using (var ctx = new ApplicationDbContext())
-            {
-                var entity = ctx.Notes.Single(e => e.NoteID == id && e.OwnerID == _userId);
-                return new NoteDetail
-                {
-                    NoteId = entity.NoteID,
-                    CategoryId = entity.CategoryID,
-                    Title = entity.Title,
-                    Content = entity.Content,
-                    CreatedUtc = entity.CreatedUtc,
-                    ModifiedUtc = entity.ModifiedUtc,
-                    CategoryName = entity.Category.Name
-                };
-            }
-        }
-        public bool UpdateNote(NoteEdit model)
-        {
-            using (var ctx = new ApplicationDbContext())
-            {
-                var entity = ctx.Notes.Single(e => e.NoteID == model.NoteId && e.OwnerID == _userId);
+        //public NoteDetail GetNoteById(int id)
+        //{
+        //    using (var ctx = new ApplicationDbContext())
+        //    {
+        //        var entity = ctx.Notes.Single(e => e.NoteID == id && e.OwnerID == _userId);
+        //        return new NoteDetail
+        //        {
+        //            NoteId = entity.NoteID,
+        //            CategoryId = entity.CategoryID,
+        //            Title = entity.Title,
+        //            Content = entity.Content,
+        //            CreatedUtc = entity.CreatedUtc,
+        //            ModifiedUtc = entity.ModifiedUtc,
+        //            CategoryName = entity.Category.Name
+        //        };
+        //    }
+        //}
+        //public bool UpdateNote(NoteEdit model)
+        //{
+        //    using (var ctx = new ApplicationDbContext())
+        //    {
+        //        var entity = ctx.Notes.Single(e => e.NoteID == model.NoteId && e.OwnerID == _userId);
 
-                entity.Title = model.Title;
-                entity.CategoryID = model.CategoryId;
-                entity.Content = model.Content;
-                entity.ModifiedUtc = DateTimeOffset.UtcNow;
+        //        entity.Title = model.Title;
+        //        entity.CategoryID = model.CategoryId;
+        //        entity.Content = model.Content;
+        //        entity.ModifiedUtc = DateTimeOffset.UtcNow;
 
-                return ctx.SaveChanges() == 1;
-            }
-        }
-        public bool DeleteNote(int noteId)
-        {
-            using (var ctx = new ApplicationDbContext())
-            {
-                var entity = ctx.Notes.Single(e => e.NoteID == noteId && e.OwnerID == _userId);
+        //        return ctx.SaveChanges() == 1;
+        //    }
+        //}
+        //public bool DeleteNote(int noteId)
+        //{
+        //    using (var ctx = new ApplicationDbContext())
+        //    {
+        //        var entity = ctx.Notes.Single(e => e.NoteID == noteId && e.OwnerID == _userId);
 
-                ctx.Notes.Remove(entity);
+        //        ctx.Notes.Remove(entity);
 
-                return ctx.SaveChanges() == 1;
-            }
-        }
+        //        return ctx.SaveChanges() == 1;
+        //    }
+        //}
     }
 }

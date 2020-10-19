@@ -13,3 +13,4 @@ C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.CopyComplete
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.dll
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.pdb
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csprojAssemblyReference.cache
