@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SocialMedia.Models
+namespace SocialMedia.Data
 {
-    class LikeCreate
+    class Reply : Comment
     {
-<<<<<<< Updated upstream
-=======
         
->>>>>>> Stashed changes
     }
 }
