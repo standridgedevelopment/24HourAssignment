@@ -8,6 +8,6 @@ namespace SocialMedia.Data
 {
     class Reply : Comment
     {
-        
+        public virtual Post ReplyComment { get; set; }
     }
 }
