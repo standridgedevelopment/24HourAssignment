@@ -8,6 +8,7 @@ namespace SocialMedia.Models
 {
     public class UserListItem
     {
+        public Guid UserID { get; set; }
         public string Name { get; set; }
     }
 }
