@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SocialMedia.Models
 {
-    class UserListItem
+    public class UserListItem
     {
+        public string Name { get; set; }
     }
 }
