@@ -10,9 +10,12 @@ namespace SocialMedia.Models
 {
     public class CommentCreate
     {
+        [Required]
+        public int UserID { get; set; }
+        [Required]
+        public int PostID { get; set; }
         [MaxLength(10000)]
         public string Text { get; set; }
-        public virtual User Author { get; set; }
 
     }
 }

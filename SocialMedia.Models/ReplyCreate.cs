@@ -10,6 +10,11 @@ namespace SocialMedia.Models
 {
     public class ReplyCreate
     {
-        
+        [Required]
+        public int UserID { get; set; }
+        [Required]
+        public int PostID { get; set; }
+        [MaxLength(10000)]
+        public string Text { get; set; }
     }
 }

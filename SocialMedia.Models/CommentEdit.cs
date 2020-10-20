@@ -8,7 +8,7 @@ namespace SocialMedia.Models
 {
     public class CommentEdit
     {
-        public int CommentID { get; set; }
+        public int ID { get; set; }
         public string Text { get; set; }
     }
 }

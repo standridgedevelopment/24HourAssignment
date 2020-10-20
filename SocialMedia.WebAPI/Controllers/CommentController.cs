@@ -14,10 +14,10 @@ namespace SocialMedia.WebAPI.Controllers
 {
     public class CommentController : ApiController
     {
-        public IHttpActionResult Get()
+        public IHttpActionResult Get(int id)
         {
             CommentService commentService = CreateCommentService();
-            var comment = commentService.GetComment();
+            var comment = commentService.GetComment(id);
             return Ok(comment);
         }
 
@@ -45,10 +45,9 @@ namespace SocialMedia.WebAPI.Controllers
             return Ok();
         }
 
-        public IHttpActionResult Delete(string id)
+        public IHttpActionResult Delete(int id)
         {
             var service = CreateCommentService();
-
             if (!service.DeleteComment(id)) return InternalServerError();
 
             return Ok();
@@ -56,9 +55,9 @@ namespace SocialMedia.WebAPI.Controllers
 
         private CommentService CreateCommentService()
         {
-            var commentID = int.Parse(User.Identity.GetUserId());
-            var commentService = new CommentService(commentID);
-            return commentService;
+            var userID = Guid.Parse(User.Identity.GetUserId());
+            var postService = new CommentService();
+            return postService;
         }
 
 

@@ -117,3 +117,4 @@ C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialM
 C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.first.resources
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csprojAssemblyReference.cache
 >>>>>>> Isaiah
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.first.resources

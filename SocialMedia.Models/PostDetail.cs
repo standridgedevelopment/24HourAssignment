@@ -9,7 +9,7 @@ namespace SocialMedia.Models
 {
     public class PostDetail
     {
-        public int PostId { get; set; }
+        public int ID { get; set; }
         public string Title { get; set; }
         public string Text { get; set; }
 
