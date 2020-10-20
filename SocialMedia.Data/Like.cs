@@ -9,6 +9,7 @@ namespace SocialMedia.Data
 {
     public class Like
     {
+
         [ForeignKey(nameof(UserID))]
         public Guid UserID;
         [ForeignKey(nameof(PostID))]

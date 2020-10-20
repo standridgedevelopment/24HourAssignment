@@ -27,7 +27,7 @@ namespace SocialMedia.Services
 
             using (var ctx = new ApplicationDbContext())
             {
-                ctx.Users.Add(entity);
+                ctx.User.Add(entity);
                 var testing = ctx.SaveChanges();
                 return true;
             }
@@ -36,10 +36,9 @@ namespace SocialMedia.Services
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var query = ctx.Users.Where(e => e.UserID == _userId).Select
+                var query = ctx.User.Where(e => e.UserID == _userId).Select
                     (e => new UserListItem
                     {
-                        UserID = _userId,
                         Name = e.Name
                         
                     }
@@ -48,47 +47,40 @@ namespace SocialMedia.Services
             }
 
         }
-        //public NoteDetail GetNoteById(int id)
-        //{
-        //    using (var ctx = new ApplicationDbContext())
-        //    {
-        //        var entity = ctx.Notes.Single(e => e.NoteID == id && e.OwnerID == _userId);
-        //        return new NoteDetail
-        //        {
-        //            NoteId = entity.NoteID,
-        //            CategoryId = entity.CategoryID,
-        //            Title = entity.Title,
-        //            Content = entity.Content,
-        //            CreatedUtc = entity.CreatedUtc,
-        //            ModifiedUtc = entity.ModifiedUtc,
-        //            CategoryName = entity.Category.Name
-        //        };
-        //    }
-        //}
-        //public bool UpdateNote(NoteEdit model)
-        //{
-        //    using (var ctx = new ApplicationDbContext())
-        //    {
-        //        var entity = ctx.Notes.Single(e => e.NoteID == model.NoteId && e.OwnerID == _userId);
+        public UserDetail GetUserByName(string id)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity = ctx.User.Single(e => e.Name == id && e.UserID == _userId);
+                return new UserDetail
+                {
+                    Name = entity.Name,
+                    Email = entity.Email,
+                };
+            }
+        }
+        public bool UpdateUser(UserEdit model)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity = ctx.User.Single(e => e.UserID == _userId);
 
-        //        entity.Title = model.Title;
-        //        entity.CategoryID = model.CategoryId;
-        //        entity.Content = model.Content;
-        //        entity.ModifiedUtc = DateTimeOffset.UtcNow;
+                entity.Name = model.Name;
+                entity.Email = model.Email;
 
-        //        return ctx.SaveChanges() == 1;
-        //    }
-        //}
-        //public bool DeleteNote(int noteId)
-        //{
-        //    using (var ctx = new ApplicationDbContext())
-        //    {
-        //        var entity = ctx.Notes.Single(e => e.NoteID == noteId && e.OwnerID == _userId);
+                return ctx.SaveChanges() == 1;
+            }
+        }
+        public bool DeleteUser(string name)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity = ctx.User.Single(e => e.Name == name && e.UserID == _userId);
 
-        //        ctx.Notes.Remove(entity);
+                ctx.User.Remove(entity);
 
-        //        return ctx.SaveChanges() == 1;
-        //    }
-        //}
+                return ctx.SaveChanges() == 1;
+            }
+        }
     }
 }

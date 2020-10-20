@@ -10,8 +10,9 @@ namespace SocialMedia.Data
 {
     public class Post
     {
-        [ForeignKey(nameof(ID))]
-        public Guid ID;
+
+        [ForeignKey(nameof(UserID))]
+        public Guid UserID;
         [Key]
         public int PostId { get; set; }
         [Required]
