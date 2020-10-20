@@ -35,12 +35,12 @@ namespace SocialMedia.WebAPI.Controllers
 
         private PostServices CreatePostService()
         {
-            var userId = Guid.Parse(User.Identity.GetUserId());
-            var postService = new PostServices(userId);
+            var postId = int.Parse(User.Identity.Name);
+            var postService = new PostServices(postId);
             return postService;
         }
 
-        public IHttpActionResult Get(int id)
+    public IHttpActionResult Get(int id)
         {
             PostServices postService = CreatePostService();
             var post = postService.GetPostById(id);
