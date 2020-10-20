@@ -10,16 +10,15 @@ namespace SocialMedia.Data
 {
     public class Post
     {
-
-        [ForeignKey(nameof(Name))]
-        public string Name;
+        [Required]
+        public int UserID { get; set; }
+        [ForeignKey(nameof(UserID))]
+        public virtual User Author { get; set; }
         [Key]
         public int PostId { get; set; }
         [Required]
         public string Title { get; set; }
         [Required]
         public string Text { get; set; }
-        [Required]
-        public virtual User Author { get; set; }
     }
 }

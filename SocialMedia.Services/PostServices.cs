@@ -10,11 +10,11 @@ namespace SocialMedia.Services
 {
     public class PostServices
     {
-        private readonly int _postId;
+        private readonly Guid _userId;
 
-        public PostServices(int postId)
+        public PostServices(Guid userId)
         {
-            _postId = postId;
+            _userId = userId;
         }
 
         public bool CreatePost(PostCreate model)
@@ -22,27 +22,28 @@ namespace SocialMedia.Services
             var entity =
                 new Post()
                 {
-                    PostId = _postId,
+                    UserID = model.UserID,
                     Title = model.Title,
-                    Text = model.Text,
-                    Author = model.Author,
+                    Text = model.Text
+                    //Author = model.Author
                 };
 
             using (var ctx = new ApplicationDbContext())
             {
                 ctx.Posts.Add(entity);
-                return ctx.SaveChanges() == 1;
+                var testing = ctx.SaveChanges();
+                return true;
             }
         }
 
-        public IEnumerable<PostListItem> GetPosts()
+        public IEnumerable<PostListItem> GetPosts(int id)
         {
             using (var ctx = new ApplicationDbContext())
             {
                 var query =
                     ctx
                         .Posts
-                        .Where(e => e.PostId == _postId)
+                        .Where(e => e.PostId == id)
                         .Select(
                             e =>
                                 new PostListItem
@@ -64,7 +65,7 @@ namespace SocialMedia.Services
                 var entity =
                     ctx
                         .Posts
-                        .Single(e => e.PostId == id && e.PostId == _postId);
+                        .Single(e => e.PostId == id);
                 return
                     new PostDetail
                     {

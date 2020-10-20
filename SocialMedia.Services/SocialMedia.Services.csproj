@@ -223,6 +223,7 @@
     <Compile Include="CommentServices.cs" />
     <Compile Include="LikeServices.cs" />
     <Compile Include="PostServices.cs" />
+    <Compile Include="ReplyServices.cs" />
     <Compile Include="UserServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

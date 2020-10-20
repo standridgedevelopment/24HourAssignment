@@ -13,7 +13,6 @@ C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.CopyComplete
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.dll
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.pdb
-C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csprojAssemblyReference.cache
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\bin\Debug\Microsoft.Owin.dll
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
@@ -105,6 +104,7 @@ C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Data\obj\Debug\Soci
 C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.CopyComplete
 C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.dll
 C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.pdb
+<<<<<<< HEAD
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.InitialCreate.resources
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.GenerateResource.cache
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations._1st.resources
@@ -115,3 +115,10 @@ C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialM
 C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations._1st.resources
 C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.GenerateResource.cache
 >>>>>>> development
+=======
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.first.resources
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.InitialCreate.resources
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations._1st.resources
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.GenerateResource.cache
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csprojAssemblyReference.cache
+>>>>>>> Isaiah

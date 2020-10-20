@@ -13,9 +13,9 @@ namespace SocialMedia.Data
     public class Comment
     {
         
-        [ForeignKey(nameof(PostID))]
+        //[ForeignKey(nameof(PostID))]
         public int PostID;
-        [ForeignKey(nameof(Name))]
+        //[ForeignKey(nameof(Name))]
         public string Name;
 
         [Key]

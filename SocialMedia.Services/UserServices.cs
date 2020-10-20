@@ -20,7 +20,7 @@ namespace SocialMedia.Services
         {
             var entity = new User()
             {
-                UserID = _userId,
+                UID = _userId,
                 Name = model.Name,
                 Email = model.Email,
             };
@@ -36,10 +36,11 @@ namespace SocialMedia.Services
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var query = ctx.User.Where(e => e.UserID == _userId).Select
+                var query = ctx.User.Where(e => e.UID == _userId).Select
                     (e => new UserListItem
                     {
-                        Name = e.Name
+                        Name = e.Name,
+                        ID = e.ID
                         
                     }
                     ); 
@@ -51,7 +52,7 @@ namespace SocialMedia.Services
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var entity = ctx.User.Single(e => e.Name == id && e.UserID == _userId);
+                var entity = ctx.User.Single(e => e.Name == id && e.UID == _userId);
                 return new UserDetail
                 {
                     Name = entity.Name,
@@ -63,7 +64,7 @@ namespace SocialMedia.Services
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var entity = ctx.User.Single(e => e.UserID == _userId);
+                var entity = ctx.User.Single(e => e.UID == _userId);
 
                 entity.Name = model.Name;
                 entity.Email = model.Email;
@@ -75,7 +76,7 @@ namespace SocialMedia.Services
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var entity = ctx.User.Single(e => e.Name == name && e.UserID == _userId);
+                var entity = ctx.User.Single(e => e.Name == name && e.UID == _userId);
 
                 ctx.User.Remove(entity);
 

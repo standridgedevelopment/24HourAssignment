@@ -1,11 +1,16 @@
+<<<<<<< HEAD
 ﻿using Microsoft.TeamFoundation.Discussion.Client;
 using SocialMedia.Data;
 using SocialMedia.Models;
 using System;
+=======
+﻿using System;
+>>>>>>> Isaiah
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+<<<<<<< HEAD
 using Comment = SocialMedia.Data.Comment;
 
 namespace SocialMedia.Services
@@ -75,5 +80,12 @@ namespace SocialMedia.Services
                 return ctx.SaveChanges() == 1;
             }
         }
+=======
+
+namespace SocialMedia.Services
+{
+    public class CommentServices
+    {
+>>>>>>> Isaiah
     }
 }
