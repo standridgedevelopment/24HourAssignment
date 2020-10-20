@@ -1,0 +1,61 @@
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Models.dll.config
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Models.dll
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Models.pdb
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.dll
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.xml
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.csproj.CopyComplete
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.dll
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.pdb
+<<<<<<< HEAD
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Models.dll.config
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Models.dll
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Models.pdb
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.dll
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.xml
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.csproj.CopyComplete
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.dll
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.pdb
+=======
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Data.dll
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Data.pdb
+C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Data.dll.config
+>>>>>>> Isaiah
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Models.dll.config
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Models.dll
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Models.pdb
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.dll
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Data.dll
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Data.pdb
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Data.dll.config
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.xml
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.csprojAssemblyReference.cache
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.csproj.CoreCompileInputs.cache
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.csproj.CopyComplete
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.dll
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.pdb
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Data.dll
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Data.pdb
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Data.dll.config
+>>>>>>> development
