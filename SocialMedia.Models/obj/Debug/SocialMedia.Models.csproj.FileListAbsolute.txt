@@ -14,3 +14,19 @@ C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.csproj.CopyComplete
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.dll
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.pdb
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Models.dll.config
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Models.dll
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Models.pdb
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.dll
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.xml
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.csprojAssemblyReference.cache
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.csproj.CoreCompileInputs.cache
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.csproj.CopyComplete
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.dll
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.pdb
