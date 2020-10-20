@@ -1,4 +1,6 @@
-﻿using SocialMedia.Models;
+﻿using Microsoft.Ajax.Utilities;
+using Microsoft.AspNet.Identity;
+using SocialMedia.Models;
 using SocialMedia.Services;
 using System;
 using System.Collections.Generic;
@@ -12,10 +14,10 @@ namespace SocialMedia.WebAPI.Controllers
     [Authorize]
     public class PostController : ApiController
     {
-        public IHttpActionResult Get()
+        public IHttpActionResult Get(int id)
         {
             PostServices postService = CreatePostService();
-            var posts = postService.GetPosts();
+            var posts = postService.GetPosts(id);
             return Ok(posts);
         }
 
@@ -24,19 +26,20 @@ namespace SocialMedia.WebAPI.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var service = CreatePostService();
+            PostServices postService = CreatePostService();
 
-            if (!service.CreatePost(post))
+            if (!postService.CreatePost(post))
                 return InternalServerError();
 
             return Ok();
         }
-
+        
         private PostServices CreatePostService()
         {
-            var postId = int.Parse(User.Identity.Name);
-            var postService = new PostServices(postId);
+            var userID = Guid.Parse(User.Identity.GetUserId());
+            var postService = new PostServices(userID);
             return postService;
         }
+       
     }
 }

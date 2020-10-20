@@ -10,8 +10,8 @@ namespace SocialMedia.Data
     public class Like
     {
 
-        [ForeignKey(nameof(Name))]
-        public string Name;
+        //[ForeignKey(nameof(Name))]
+        //public string Name;
         [ForeignKey(nameof(PostID))]
         public int PostID;
         public virtual Post LikedPost { get; set; }

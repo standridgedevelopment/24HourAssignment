@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SocialMedia.Models
+namespace SocialMedia.Services
 {
-    public class UserListItem
+    public class CommentServices
     {
-        public string Name { get; set; }
-        public int ID { get; set; }
     }
 }

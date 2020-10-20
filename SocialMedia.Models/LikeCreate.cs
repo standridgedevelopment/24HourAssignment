@@ -11,10 +11,10 @@ namespace SocialMedia.Models
 {
     public class LikeCreate
     {
-        [ForeignKey(nameof(Name))]
+        //[ForeignKey(nameof(Name))]
         [Required]
         public string Name;
-        [ForeignKey(nameof(PostID))]
+        //[ForeignKey(nameof(PostID))]
         [Required]
         public int PostID;
         public virtual Post LikedPost { get; set; }
