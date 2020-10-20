@@ -49,7 +49,7 @@ namespace SocialMedia.Services
                                     
                                     ID = e.ID,
                                     Text = e.Text,
-                                    CommentPost = e.CommentPost
+                                    //CommentPost = e.CommentPost
                                 }
                         );
 
