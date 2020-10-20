@@ -15,23 +15,23 @@ namespace SocialMedia.WebAPI.Controllers
         public IHttpActionResult Get()
         {
             UserService noteService = CreateUserService();
-            var notes = noteService.GetUsers();
-            return Ok(notes);
+            var user = noteService.GetUsers();
+            return Ok(user);
         }
-        //public IHttpActionResult Get(int id)
-        //{
-        //    NoteService noteService = CreateNoteService();
-        //    var note = noteService.GetNoteById(id);
-        //    return Ok(note);
-        //}
-        public IHttpActionResult Post(UserCreate note)
+        public IHttpActionResult Get(string id)
+        {
+           UserService userService = CreateUserService();
+           var user = userService.GetUserByName(id);
+           return Ok(user);
+        }
+        public IHttpActionResult Post(UserCreate user)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
             var service = CreateUserService();
 
-            if (!service.CreateUser(note))
+            if (!service.CreateUser(user))
                 return InternalServerError();
 
             return Ok();
@@ -41,6 +41,24 @@ namespace SocialMedia.WebAPI.Controllers
             var userID = Guid.Parse(User.Identity.GetUserId());
             var userService = new UserService(userID);
             return userService;
+        }
+        public IHttpActionResult Put(UserEdit user)
+        {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
+            var service = CreateUserService();
+
+            if (!service.UpdateUser(user)) return InternalServerError();
+
+            return Ok();
+        }
+        public IHttpActionResult Delete(string id)
+        {
+            var service = CreateUserService();
+
+            if (!service.DeleteUser(id)) return InternalServerError();
+
+            return Ok();
         }
     }
 }
