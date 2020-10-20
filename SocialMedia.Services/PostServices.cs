@@ -25,7 +25,7 @@ namespace SocialMedia.Services
                     PostId = _postId,
                     Title = model.Title,
                     Text = model.Text,
-                    Author = User
+                    Author = model.Author
                 };
 
             using (var ctx = new ApplicationDbContext())
