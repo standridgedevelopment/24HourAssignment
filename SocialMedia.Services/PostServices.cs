@@ -22,7 +22,6 @@ namespace SocialMedia.Services
             var entity =
                 new Post()
                 {
-                    PostId = _postId,
                     Title = model.Title,
                     Text = model.Text,
                     Author = model.Author,

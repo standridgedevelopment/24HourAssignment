@@ -1,4 +1,5 @@
-﻿using SocialMedia.Models;
+﻿using Microsoft.AspNet.Identity;
+using SocialMedia.Models;
 using SocialMedia.Services;
 using System;
 using System.Collections.Generic;
@@ -34,8 +35,8 @@ namespace SocialMedia.WebAPI.Controllers
 
         private PostServices CreatePostService()
         {
-            var postId = int.Parse(User.Identity.Name);
-            var postService = new PostServices(postId);
+            var userId = Guid.Parse(User.Identity.GetUserId());
+            var postService = new PostServices(userId);
             return postService;
         }
 
