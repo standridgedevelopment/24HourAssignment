@@ -105,7 +105,7 @@ C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Data\obj\Debug\Soci
 C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.CopyComplete
 C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.dll
 C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.pdb
-C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.first.resources
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.InitialCreate.resources
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.GenerateResource.cache
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations._1st.resources
+C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations._1st.resources
