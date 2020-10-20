@@ -12,16 +12,18 @@ namespace SocialMedia.Data
 {
     public class Comment
     {
+        
         [ForeignKey(nameof(PostID))]
         public int PostID;
-
+        [ForeignKey(nameof(Name))]
+        public string Name;
 
         [Key]
         public int CommentID { get; set; }
         [Required]
         public string Text { get; set; }
-
+        
         public virtual Post CommentPost { get; set; }
         public virtual User Author { get; set; }
-    }
+}
 }
