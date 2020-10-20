@@ -15,7 +15,7 @@ namespace SocialMedia.Data
         [ForeignKey(nameof(UserID))]
         public virtual User Author { get; set; }
         [Key]
-        public int PostId { get; set; }
+        public int ID { get; set; }
         [Required]
         public string Title { get; set; }
         [Required]

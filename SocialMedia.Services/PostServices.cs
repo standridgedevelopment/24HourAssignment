@@ -10,12 +10,7 @@ namespace SocialMedia.Services
 {
     public class PostServices
     {
-        private readonly Guid _userId;
-
-        public PostServices(Guid userId)
-        {
-            _userId = userId;
-        }
+       
 
         public bool CreatePost(PostCreate model)
         {
