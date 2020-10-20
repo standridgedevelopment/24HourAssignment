@@ -1,81 +1,90 @@
-﻿//using SocialMedia.Data;
-//using SocialMedia.Models;
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
+﻿using SocialMedia.Data;
+using SocialMedia.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-//namespace SocialMedia.Services
-//{
-//    public class LikeService
-//    {
-       
-//        public bool CreateLike(LikeCreate model)
-//        {
-//            var entity = new Like()
-//            {
-//                Liker = model.Liker, 
-//                Name = model.Name,
-//                LikedPost = model.LikedPost,
-//            };
+namespace SocialMedia.Services
+{
+    public class LikeService
+    {
+        private readonly Guid _userId;
 
-//            using (var ctx = new ApplicationDbContext())
-//            {
-//                ctx.User.Add(entity);
-//                var testing = ctx.SaveChanges();
-//                return true;
-//            }
-//        }
-//        public IEnumerable<UserListItem> GetUsers()
-//        {
-//            using (var ctx = new ApplicationDbContext())
-//            {
-//                var query = ctx.User.Where(e => e.UserID == _userId).Select
-//                    (e => new UserListItem
-//                    {
-//                        Name = e.Name
+        public LikeService(Guid userId)
+        {
+            _userId = userId;
+        }
+        public bool CreateLike(LikeCreate model)
+        {
+            var entity = new Like()
+            {
+                Liker = model.Liker,
+                Name = model.Name,
+                LikedPost = model.LikedPost,
+            };
 
-//                    }
-//                    );
-//                return query.ToArray();
-//            }
+            using (var ctx = new ApplicationDbContext())
+            {
+                ctx.Likes.Add(entity);
+                var testing = ctx.SaveChanges();
+                return true;
+            }
+        }
 
-//        }
-//        public UserDetail GetUserByName(string id)
-//        {
-//            using (var ctx = new ApplicationDbContext())
-//            {
-//                var entity = ctx.User.Single(e => e.Name == id && e.UserID == _userId);
-//                return new UserDetail
-//                {
-//                    Name = entity.Name,
-//                    Email = entity.Email,
-//                };
-//            }
-//        }
-//        public bool UpdateUser(UserEdit model)
-//        {
-//            using (var ctx = new ApplicationDbContext())
-//            {
-//                var entity = ctx.User.Single(e => e.UserID == _userId);
+        //See all likes posts by Name
+        public IEnumerable<LikeDetail> GetLikes(string name)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var query = ctx.Likes.Where(e => e.Name == name).Select
+                    (e => new LikeDetail
+                    {
+                        LikedPost = e.LikedPost
+                    }
+                    );
+                return query.ToArray();
+            }
 
-//                entity.Name = model.Name;
-//                entity.Email = model.Email;
+        }
+        //See all likes by Post
+        public IEnumerable<LikeListItem> GetLikesByPost(int id)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var query = ctx.Likes.Where(e => e.PostID == id).Select
+                    (e => new LikeListItem
+                    {
+                        User = e.Liker.Name
+                    }
+                    );
+                return query.ToArray();
+            }
 
-//                return ctx.SaveChanges() == 1;
-//            }
-//        }
-//        public bool DeleteUser(string name)
-//        {
-//            using (var ctx = new ApplicationDbContext())
-//            {
-//                var entity = ctx.User.Single(e => e.Name == name && e.UserID == _userId);
+        }
+        public bool UpdateLike(LikeEdit model)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity = ctx.Likes.Single();
 
-//                ctx.User.Remove(entity);
+                entity.PostID = model.PostID;
+               
 
-//                return ctx.SaveChanges() == 1;
-//            }
-//        }
-//    }
-//}
+                return ctx.SaveChanges() == 1;
+            }
+        }
+        public bool DeleteLike(string name)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity = ctx.Likes.Single(e => e.Name == name);
+
+                ctx.Likes.Remove(entity);
+
+                return ctx.SaveChanges() == 1;
+            }
+        }
+    }
+}
