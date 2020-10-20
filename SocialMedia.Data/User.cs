@@ -10,7 +10,7 @@ namespace SocialMedia.Data
     public class User
     {
         [Key]
-        public Guid  UserID { get; set; }
+        public Guid UserID { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]

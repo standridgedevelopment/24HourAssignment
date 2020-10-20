@@ -8,5 +8,6 @@ namespace SocialMedia.Models
 {
     public class LikeEdit
     {
+        public int PostID;
     }
 }

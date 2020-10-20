@@ -36,6 +36,7 @@ C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Data.pdb
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Data.dll.config
 >>>>>>> Isaiah
+<<<<<<< HEAD
 C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Models.dll.config
 C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Models.dll
 C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Models.pdb
@@ -55,3 +56,8 @@ C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\obj\Debug\So
 C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.csproj.CopyComplete
 C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.dll
 C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Models\obj\Debug\SocialMedia.Models.pdb
+=======
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Data.dll
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Data.pdb
+C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Models\bin\Debug\SocialMedia.Data.dll.config
+>>>>>>> development
