@@ -108,17 +108,12 @@ C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Data\obj\Debug\Soci
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.InitialCreate.resources
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.GenerateResource.cache
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations._1st.resources
-<<<<<<< HEAD
 C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations._1st.resources
 =======
 C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.InitialCreate.resources
 C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations._1st.resources
 C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.GenerateResource.cache
 >>>>>>> development
-=======
 C:\Users\durer\Documents\GitHub\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.first.resources
-C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.InitialCreate.resources
-C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations._1st.resources
-C:\ElevenFiftyProjects\Blue Badge\Team Projects\24_hour\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.GenerateResource.cache
 C:\ElevenFiftyProjects\SD 65\BlueBadge\TeamProjects\24HourAssignment\SocialMedia.Data\obj\Debug\SocialMedia.Data.csprojAssemblyReference.cache
 >>>>>>> Isaiah
