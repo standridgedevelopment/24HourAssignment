@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿using Microsoft.AspNet.Identity;
 using SocialMedia.Data;
 using SocialMedia.Models;
@@ -7,20 +6,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-=======
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
->>>>>>> development
 using System.Web.Http;
 
 namespace SocialMedia.WebAPI.Controllers
 {
     public class CommentController : ApiController
     {
-<<<<<<< HEAD
         public IHttpActionResult Get()
         {
             CommentService commentService = CreateCommentService();
@@ -71,7 +64,3 @@ namespace SocialMedia.WebAPI.Controllers
 
     }
 }
-=======
-    }
-}
->>>>>>> development
