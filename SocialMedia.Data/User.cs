@@ -9,9 +9,9 @@ namespace SocialMedia.Data
 {
     public class User
     {
-        [Required]
-        public Guid  UserID { get; set; }
         [Key]
+        public Guid  UserID { get; set; }
+        [Required]
         public string Name { get; set; }
         [Required]
         public string Email { get; set; }
