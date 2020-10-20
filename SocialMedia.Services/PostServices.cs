@@ -10,7 +10,11 @@ namespace SocialMedia.Services
 {
     public class PostServices
     {
-       
+        //private readonly int PostID;
+        //public PostServices(int commentID)
+        //{
+        //    PostID = commentID;
+        //}
 
         public bool CreatePost(PostCreate model)
         {
@@ -38,12 +42,12 @@ namespace SocialMedia.Services
                 var query =
                     ctx
                         .Posts
-                        .Where(e => e.PostId == id)
+                        .Where(e => e.ID == id)
                         .Select(
                             e =>
                                 new PostListItem
                                 {
-                                    PostId = e.PostId,
+                                    ID = e.ID,
                                     Title = e.Title,
                                     Author = e.Author
                                 }
@@ -60,11 +64,11 @@ namespace SocialMedia.Services
                 var entity =
                     ctx
                         .Posts
-                        .Single(e => e.PostId == id);
+                        .Single(e => e.ID == id);
                 return
                     new PostDetail
                     {
-                        PostId = entity.PostId,
+                        ID = entity.ID,
                         Title = entity.Title,
                         Text = entity.Text,
                         Author = entity.Author

@@ -37,7 +37,7 @@ namespace SocialMedia.WebAPI.Controllers
         private PostServices CreatePostService()
         {
             var userID = Guid.Parse(User.Identity.GetUserId());
-            var postService = new PostServices(userID);
+            var postService = new PostServices();
             return postService;
         }
        
