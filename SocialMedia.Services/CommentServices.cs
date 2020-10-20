@@ -46,12 +46,12 @@ namespace SocialMedia.Services
                             e =>
                                 new CommentListItem
                                 {
-                                    
+
                                     ID = e.ID,
                                     Text = e.Text,
-                                    CommentPost = e.CommentPost
+                                    CommentPost = ctx.Posts.ElementAt(id)
                                 }
-                        );
+                                ) ;
 
                 return query.ToArray();
             }
