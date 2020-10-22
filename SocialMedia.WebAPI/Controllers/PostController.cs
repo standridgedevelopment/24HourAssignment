@@ -33,13 +33,13 @@ namespace SocialMedia.WebAPI.Controllers
 
             return Ok();
         }
-        
+
         private PostServices CreatePostService()
         {
             var userID = Guid.Parse(User.Identity.GetUserId());
-            var postService = new PostServices();
-            return postService;
+            var userService = new PostServices(userID);
+            return userService;
         }
-       
+
     }
 }

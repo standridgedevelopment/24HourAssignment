@@ -11,7 +11,7 @@ namespace SocialMedia.Data
     public class Post
     {
         [Required]
-        public int UserID { get; set; }
+        public Guid UserID { get; set; }
         [ForeignKey(nameof(UserID))]
         public virtual User Author { get; set; }
         [Key]

@@ -10,18 +10,19 @@ namespace SocialMedia.Services
 {
     public class PostServices
     {
-        //private readonly int PostID;
-        //public PostServices(int commentID)
-        //{
-        //    PostID = commentID;
-        //}
+        private readonly Guid _userId;
+
+        public PostServices(Guid userId)
+        {
+            _userId = userId;
+        }
 
         public bool CreatePost(PostCreate model)
         {
             var entity =
                 new Post()
                 {
-                    UserID = model.UserID,
+                    UserID = _userId,
                     Title = model.Title,
                     Text = model.Text
                     //Author = model.Author

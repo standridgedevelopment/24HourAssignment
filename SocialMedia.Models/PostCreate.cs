@@ -11,8 +11,8 @@ namespace SocialMedia.Models
 {
     public class PostCreate
     {
-        [Required]
-        public int UserID { get; set; }
+        
+        //public int UserID { get; set; }
         [Required]
         public string Title { get; set; }
 

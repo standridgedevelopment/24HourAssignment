@@ -36,12 +36,6 @@ namespace SocialMedia.WebAPI.Controllers
 
             return Ok();
         }
-        private UserService CreateUserService()
-        {
-            var userID = Guid.Parse(User.Identity.GetUserId());
-            var userService = new UserService(userID);
-            return userService;
-        }
         public IHttpActionResult Put(UserEdit user)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
@@ -59,6 +53,12 @@ namespace SocialMedia.WebAPI.Controllers
             if (!service.DeleteUser(id)) return InternalServerError();
 
             return Ok();
+        }
+        private UserService CreateUserService()
+        {
+            var userID = Guid.Parse(User.Identity.GetUserId());
+            var userService = new UserService(userID);
+            return userService;
         }
     }
 }
