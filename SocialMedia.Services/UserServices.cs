@@ -40,7 +40,9 @@ namespace SocialMedia.Services
                     (e => new UserListItem
                     {
                         Name = e.Name,
-                        UserID = e.UID
+                        UserID = e.UID,
+                        //Posts = e.Posts
+
                         
                     }
                     ); 

@@ -22,7 +22,7 @@ namespace SocialMedia.Services
             var entity =
                 new Post()
                 {
-                    UserID = _userId,
+                    UserID = model.UserID,
                     Title = model.Title,
                     Text = model.Text
                     //Author = model.Author
@@ -50,7 +50,7 @@ namespace SocialMedia.Services
                                 {
                                     ID = e.ID,
                                     Title = e.Title,
-                                    Author = e.Author
+                                    Author = e.Author.Name
                                 }
                         );
 

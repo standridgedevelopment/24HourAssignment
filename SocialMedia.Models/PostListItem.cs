@@ -12,6 +12,6 @@ namespace SocialMedia.Models
         public int ID { get; set; }
         public string Title { get; set; }
 
-        public virtual User Author { get; set; }
+        public virtual string Author { get; set; }
     }
 }

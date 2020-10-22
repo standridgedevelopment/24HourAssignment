@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SocialMedia.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,5 +12,6 @@ namespace SocialMedia.Models
         public string Name { get; set; }
         //public int ID { get; set; }
         public Guid UserID { get; set; }
+        public virtual List<Post> Posts { get; set; } = new List<Post>();
     }
 }
